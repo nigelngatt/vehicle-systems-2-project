@@ -5,73 +5,40 @@
 Final project for the Building AI course
 
 ## Summary
-
-Describe briefly in 2-3 sentences what your project is about. About 250 characters is a nice length! 
-
+A repository for the courses E0009E and Building AI. Learning how to combine both AI and programming to make new things happen.
 
 ## Background
 
 Which problems does your idea solve? How common or frequent is this problem? What is your personal motivation? Why is this topic important or interesting?
+Since the problems started long time ago I merely touch on the surface now since I don't want to get to nestled into the problems which are way too intricate. I only resolve the basics and try to give users a new outcome by using several sources which are both free and open source. Easy to use and work with. Updatable and managable.
 
-This is how you make a list, if you need one:
-* problem 1
-* problem 2
-* etc.
-
+* Integrate data
+* Display it
 
 ## How is it used?
 
-Describe the process of using the solution. In what kind situations is the solution needed (environment, time, etc.)? Who are the users, what kinds of needs should be taken into account?
+The process involves using different sources of information.
+Not only reusing information and data but also making them look good together.
+That takes time and effort. Since the web is infinite, it takes all the time you have to find solutions.
+When it is finally put together, the result resembles a product that most users find interesting. If you like smartphones, laptops or computers you 
+will feel comfy. In this project I create a solution for an automobile (a car), where the driver looks at the stats of the car while driving.
 
 Images will make your README look nice!
 Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
-![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
+![Description](url)
 
-If you need to resize images, you have to use an HTML tag, like this:
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
-
-This is how you create code examples:
 ```
-def main():
-   countries = ['Denmark', 'Finland', 'Iceland', 'Norway', 'Sweden']
-   pop = [5615000, 5439000, 324000, 5080000, 9609000]   # not actually needed in this exercise...
-   fishers = [1891, 2652, 3800, 11611, 1757]
-
-   totPop = sum(pop)
-   totFish = sum(fishers)
-
-   # write your solution here
-
-   for i in range(len(countries)):
-      print("%s %.2f%%" % (countries[i], 100.0))    # current just prints 100%
-
-main()
 ```
-
 
 ## Data sources and AI methods
 Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
-If you need to use links, here's an example:
-[Twitter API](https://developer.twitter.com/en/docs)
-
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+The majority of the data stems from the web. Anything that is open source is reused. I also add data from my own sources.
+[Description](url)
 
 ## Challenges
-
-What does your project _not_ solve? Which limitations and ethical considerations should be taken into account when deploying a solution like this?
+It could use more freedom of control. Less recycling code and more code written from scratch.
 
 ## What next?
-
-How could your project grow and become something even more? What kind of skills, what kind of assistance would you  need to move on? 
-
+More education and knowledge in new frameworks. Probably a better developer. Less error-detection and more problerm-solving.
 
 ## Acknowledgments
-
-* list here the sources of inspiration 
-* do not use code, images, data etc. from others without permission
-* when you have permission to use other people's materials, always mention the original creator and the open source / Creative Commons licence they've used
-  <br>For example: [Sleeping Cat on Her Back by Umberto Salvagnin](https://commons.wikimedia.org/wiki/File:Sleeping_cat_on_her_back.jpg#filelinks) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
-* etc
