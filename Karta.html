@@ -1,0 +1,55 @@
+﻿<html>
+<head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="jquery-1.9.1.js"></script>
+    <script type="text/javascript">
+        google.charts.load('current', {
+            'packages': ['map'],
+            'mapsApiKey': 'AIzaSyBRj4aQXml3J0XfDDyFnRPq1xG4E5gWKs0'
+        });
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        
+          var data = google.visualization.arrayToDataTable([
+              ['Latitude', 'Longitude'],
+              [65.6132379, 22.1783821]
+          ]);
+
+          var options = {
+              width: 700, height: 240,
+              icons: {
+                  default: {
+                      normal: 'car_transparent.png',
+                      selected: 'car_highlighted.png'
+                  },
+                  customMarker: {
+                      normal: 'car_custom.png',
+                      selected: 'car_custom_highlighted.png'
+                  }
+              },
+              featureType: '',
+              region: '',
+              colorAxis: {colors: ['#ff', '#00', '#F2A1C3'] },
+              backgroundColor: '#D9A1B2',
+              datalessRegionColor: '#F5C2A9',
+              defaultColor: '#F5F5F5'
+        };
+
+        var chart = new google.visualization.Map(document.getElementById('chart_div'));
+        
+        chart.draw(data, options);
+
+        google.visualization.events.addListener(chart, 'select', callbackFnc);
+
+        function callbackFnc() {
+            alert('Modification attempt found.');
+        };
+      }
+    </script>
+</head>
+<body>
+    <div id="chart_div" style="width: 700px; height: 240px;"></div>
+</body>
+</html>
+<script></script>
